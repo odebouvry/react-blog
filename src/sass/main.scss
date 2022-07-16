@@ -1,0 +1,17 @@
+// 1. Include functions
+@import './vendors/bootstrap/_functions.scss';
+
+// 2. Include any default variable
+@import './vendors/bootstrap/_variables.scss';
+@import './abstracts/_variables.scss';
+
+// 3. Include mixins
+@import './vendors/bootstrap/mixins/_breakpoints.scss';
+@import './vendors/bootstrap/mixins/_mixins/lists.scss';
+@import './vendors/bootstrap/mixins/_mixins/breakpoints.scss';
+@import './vendors/bootstrap/mixins/_mixins/container.scss';
+@import './vendors/bootstrap/mixins/_mixins/grid.scss';
+@import './vendors/bootstrap/mixins/_mixins/utilities.scss';
+
+@import './layout/_grid.scss';
+@import './base/_reset.scss';

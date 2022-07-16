@@ -1,0 +1,21 @@
+.card {
+  max-width: 30rem;
+  min-width: 30rem;
+  padding: 1rem;
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.2);
+  margin: 1rem;
+  cursor: pointer;
+  min-height: 20rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  .card {
+    font-size: 1.8rem;
+  }
+}
